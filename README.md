@@ -2,14 +2,14 @@
 
 CONDICIONALES
 
-public class Main {
-    public static void main(String[] args) {
-        int numero = 4;
-        if (numero > 0) {
+    public class Main {
+        public static void main(String[] args) {
+            int numero = 4;
+            if (numero > 0) {
             System.out.println("Es positivo");
-        } else if (numero < 0) {
+            } else if (numero < 0) {
             System.out.println("Es negativo");
-        } else {
+            } else {
             System.out.println("Es 0");
         }
     }
@@ -19,23 +19,23 @@ public class Main {
 
 WHILE
 
-public class Main {
-    public static void main(String[] args) {
+    public class Main {
+        public static void main(String[] args) {
             int numero = 3;
 
             while (numero <= 10) {
-                System.out.println(numero);
-                numero ++;
-            }
+            System.out.println(numero);
+            numero ++;
         }
     }
+}
 
 ---------------------------------------
 
 DOWHILE
 
-public class Main {
-    public static void main(String[] args) {
+    public class Main {
+        public static void main(String[] args) {
             int numero = 11;
 
              do {
@@ -49,37 +49,37 @@ public class Main {
 
 FOR
 
-public class Main {
+    public class Main {
         public static void main(String[] args) {
-            for (int numero = 0; numero <= 3; numero++) {
-                System.out.println(numero);
-            }
+        for (int numero = 0; numero <= 3; numero++) {
+        System.out.println(numero);
         }
     }
+}
 
 ---------------------------------------
 
 SWICH
 
-public class Main {
-    public static void main(String[] args) {
-        var estacion = "VERANO";
+    public class Main {
+        public static void main(String[] args) {
+            var estacion = "VERANO";
 
-        switch (estacion) {
+            switch (estacion) {
             case "PRIMAVERA":
-                System.out.println("Es primavera");
-                break;
+            System.out.println("Es primavera");
+            break;
             case "VERANO":
-                System.out.println("Es verano");
-                break;
+            System.out.println("Es verano");
+            break;
             case "OTOÑO":
-                System.out.println("Es otoño");
-                break;
+            System.out.println("Es otoño");
+            break;
             case "INVIERNO":
-                System.out.println("Es invierno");
-                break;
+            System.out.println("Es invierno");
+            break;
             default:
-                System.out.println("No es ninguna estacion");
+            System.out.println("No es ninguna estacion");
         }
     }
 }
