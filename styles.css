@@ -16,7 +16,7 @@ body {
 
 .btn-modern:hover {
     transform: translateY(-5px);
-    background-color: aqua;
+    background-color: green;
     color: white;
-    box-shadow: 0 5px 10px rgba(45, 206, 255, 0.5);
+    box-shadow: 0 5px 10px rgba(48, 211, 268, 0.5);
 }
